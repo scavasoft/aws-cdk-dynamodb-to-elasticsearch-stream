@@ -1,0 +1,1 @@
+# aws-cdk-stream-dynamodb-to-elasticsearch
