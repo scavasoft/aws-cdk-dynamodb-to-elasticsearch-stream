@@ -1,0 +1,36 @@
+{
+  "name": "aws-cdk-dynamodb-to-elasticsearch-stream",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@aws-cdk/core": "^1.67.0"
+  },
+  "dependencies": {
+    "@aws-cdk/assert": "^1.67.0",
+    "@aws-cdk/aws-dynamodb": "^1.67.0",
+    "@aws-cdk/aws-elasticsearch": "^1.67.0",
+    "@aws-cdk/aws-iam": "^1.67.0",
+    "@aws-cdk/aws-lambda": "^1.67.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.67.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.67.0",
+    "@aws-cdk/core": "^1.67.0",
+    "@elastic/elasticsearch": "^7.9.1",
+    "@types/aws-lambda": "^8.10.64",
+    "@types/jest": "^26.0.10",
+    "@types/node": "^10.17.39",
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.771.0",
+    "jest": "^26.4.2",
+    "parcel": "2.0.0-beta.1",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.7"
+  }
+}
