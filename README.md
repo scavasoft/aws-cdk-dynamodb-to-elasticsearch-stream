@@ -1,12 +1,3 @@
-# Welcome to your CDK TypeScript Construct Library project!
+# Stream DynamoDB to ElasticSearch
 
-You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`DynamoDBWithElasticSearchStream`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
-
-The construct defines an interface (`CdkProps`) to configure the visibility timeout of the queue.
-
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
+AWS CDK based construct that enables you to easily stream data from a DynamoDB table to an ElasticSearch domain.
