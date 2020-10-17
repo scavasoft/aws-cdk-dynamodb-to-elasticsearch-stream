@@ -1,6 +1,10 @@
 # Stream DynamoDB to ElasticSearch
 
-AWS CDK based construct that enables you to easily stream data from a DynamoDB table to an ElasticSearch domain.
+AWS CDK based construct that enables you to easily stream data from a DynamoDB table to an ElasticSearch index.
+
+#### Installation
+
+    npm install scavasoft/aws-cdk-dynamodb-to-elasticsearch-stream
 
 ### Sample usage
 
