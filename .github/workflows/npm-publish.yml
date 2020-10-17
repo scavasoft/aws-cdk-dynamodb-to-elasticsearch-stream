@@ -16,9 +16,7 @@ jobs:
       - run: npm ci
 
       # Create new version
-      - run: |
-        export TIMESTAMP=`date +%Y-%m-%d-%H-%M-%S`
-        npm --no-git-tag-version version $TIMESTAMP
+      - run: export TIMESTAMP=`date +%Y-%m-%d-%H-%M-%S` && npm --no-git-tag-version version $TIMESTAMP
 
       # Publish to Github Packages
       - uses: actions/setup-node@v1
