@@ -4,7 +4,7 @@ AWS CDK based construct that enables you to easily stream data from a DynamoDB t
 
 #### Installation
 
-    npm install scavasoft/aws-cdk-dynamodb-to-elasticsearch-stream
+    npm install @scavasoft/aws-cdk-dynamodb-to-elasticsearch-stream
 
 ### Sample usage
 
