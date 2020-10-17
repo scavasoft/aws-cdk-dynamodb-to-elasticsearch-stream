@@ -1,6 +1,6 @@
 {
   "name": "@scavasoft/aws-cdk-dynamodb-to-elasticsearch-stream",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -33,12 +33,25 @@
     "ts-node": "^9.0.0",
     "typescript": "^3.9.7"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "files": [
     "lib/**/*.d.ts",
     "lib/**/*.js",
     "lib/**/*.ts"
-  ]
+  ],
+  "description": "AWS CDK based construct that enables you to easily stream data from a DynamoDB table to an ElasticSearch index.",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scavasoft/aws-cdk-stream-dynamodb-to-elasticsearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scavasoft/aws-cdk-stream-dynamodb-to-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/scavasoft/aws-cdk-stream-dynamodb-to-elasticsearch#readme"
 }
