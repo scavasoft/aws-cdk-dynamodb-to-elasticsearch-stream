@@ -22,10 +22,10 @@ jobs:
           NPM_REGISTRY_URL: https://npm.pkg.github.com/
 
       - uses: mikeal/merge-release@master
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-            NPM_REGISTRY_URL: https://npm.pkg.github.com/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_REGISTRY_URL: https://npm.pkg.github.com/
 
       # Create new version
 #      - run: npm --no-git-tag-version version patch
