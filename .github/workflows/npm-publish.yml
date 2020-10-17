@@ -16,7 +16,7 @@ jobs:
       - run: npm ci
 
       # Create new version
-      - run: npm --no-git-tag-version version patch
+      - run: npm --no-git-tag-version version date +"%T"
 
       # Publish to Github Packages
       - uses: actions/setup-node@v1
