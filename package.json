@@ -53,5 +53,25 @@
   "bugs": {
     "url": "https://github.com/scavasoft/aws-cdk-stream-dynamodb-to-elasticsearch/issues"
   },
-  "homepage": "https://github.com/scavasoft/aws-cdk-stream-dynamodb-to-elasticsearch#readme"
+  "homepage": "https://github.com/scavasoft/aws-cdk-stream-dynamodb-to-elasticsearch#readme",
+  "keywords": [
+    "AWS",
+    "aws",
+    "AWS-CDK",
+    "aws-cdk",
+    "AWS CDK",
+    "aws cdk",
+    "AWS Lambda",
+    "aws lambda",
+    "Lambda",
+    "AWS DynamoDB",
+    "DynamoDB",
+    "dynamodb",
+    "AWS Elasticsearch",
+    "Elasticsearch",
+    "elasticsearch",
+    "elasticsearch stream",
+    "Stream",
+    "Node"
+  ]
 }
