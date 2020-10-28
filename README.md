@@ -1,5 +1,7 @@
 # Stream DynamoDB to ElasticSearch
 
+[![npm version](https://badge.fury.io/js/%40scavasoft%2Faws-cdk-dynamodb-to-elasticsearch-stream.svg)](https://www.npmjs.com/package/@scavasoft/aws-cdk-dynamodb-to-elasticsearch-stream)
+
 AWS CDK based construct that enables you to easily stream data from a DynamoDB table to an ElasticSearch index.
 
 #### Installation
