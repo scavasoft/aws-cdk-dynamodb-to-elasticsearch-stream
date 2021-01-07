@@ -48,7 +48,6 @@ export class DynamoDBWithElasticSearchStream extends Table {
     private createStreamLambda() {
         return new NodejsFunction(this, 'fn-for-stream', {
             entry: path.resolve(__dirname, './lambda/stream.ts'),
-            projectRoot: path.resolve(__dirname, './..'),
             environment: {
                 ES_DOMAIN: this.props.streamTo.domain.domainEndpoint,
                 ES_INDEX: this.props.streamTo.index,
